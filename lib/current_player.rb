@@ -5,4 +5,5 @@ board.each do |turn|
     counter =+ 1
   else
   end
+  
 end
