@@ -10,3 +10,12 @@ def turn_count(board)
   turn
 
 end
+
+def current_player(board)
+  turn.to_i
+  if int.odd? == true
+    puts "X"
+  else
+    puts "O"
+  end
+end
